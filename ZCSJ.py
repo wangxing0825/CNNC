@@ -23,6 +23,8 @@ list2_2=[]
 for i in range(4000,40000,1):
     list2_2.append(np.array(sheet2.row_values(i)))
 y_train=np.asarray(list2_2)
+y_train=np.asarray(list2_2)
+
 
 
 
